@@ -1,4 +1,4 @@
-- hosts: all
+- hosts: ubuntu@172.31.85.59
   become: true
   tasks: 
      - name: delete old deployment
