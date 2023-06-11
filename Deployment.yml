@@ -10,10 +10,10 @@ spec:
    template:
       metadata:
         labels:
-          app: mrdevops
+          app: sagar
       spec:
        containers:
-        - name: mrdevops
+        - name: sagar
           image: sagarkatale/pipelineprojectnew
           imagePullPolicy: Always
           ports:
